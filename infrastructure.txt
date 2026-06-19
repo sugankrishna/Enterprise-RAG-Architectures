@@ -1,0 +1,5 @@
+Project Titan Server Infrastructure Notes:
+We had a meeting regarding cloud costs. The initial estimate for the dedicated database instances was $700 per month. 
+
+Architect Feedback:
+The lead architect recommended switching completely to a serverless architecture. This change will successfully cut database costs by 20% and allow us to scale down our active compute instances from 5 down to 3. The new target budget should reflect this reduction.

@@ -1,0 +1,10 @@
+# Ignore database and virtual environments
+faiss_document_index/
+__pycache__/
+*.pyc
+.env
+.venv
+venv/
+user_docs/
+indexed_files_registry.txt
+local_rag_env/
