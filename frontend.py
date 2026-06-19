@@ -15,7 +15,7 @@ st.set_page_config(page_title="Universal Document AI", page_icon="📄", layout=
 
 # --- INITIALIZE GEMINI CLIENT ---
 # REPLACE WITH YOUR ACTUAL KEY
-GEMINI_API_KEY = "AIzaSyD_ZkyhuM9WjlB33xzSfmXG7BCcDtFXz2M" 
+GEMINI_API_KEY = "YOUR API KEY" 
 genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel("gemini-2.5-flash")
 
